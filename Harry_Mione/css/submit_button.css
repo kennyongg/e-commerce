@@ -1,0 +1,43 @@
+/* Submit button */
+.submit {
+  background-color: #DDFEFF;
+  color: #000000;
+  border: 2px solid #4A4A4A;
+  text-align: center;
+  font-size: 20px;
+  padding: 8px;
+  width: 100%;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.submit:hover {
+	background-color: #2196F3;
+	color: #FFFFFF;
+}
+
+.submit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+}
+
+.submit span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+
+.submit:hover span {
+  padding-right: 25px;
+}
+
+.submit:hover span:after {
+  opacity: 1;
+  right: 0;
+}

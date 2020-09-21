@@ -1,0 +1,49 @@
+body {
+	background-color: #36342F;
+}
+
+.footer {
+  	width: 100%;
+  	margin: 0;
+  	padding-top: 2em;
+  	padding-bottom: 2em;
+  	background-color: #36342F;
+}
+
+.footer p {
+	color: white;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+.footer h1 {
+  	font-size: 38px;
+  	font-weight: 200;
+  	width: 100%;
+  	text-align:left;
+  	font-family:'Cormorant Unicase', serif;
+  	color: white;
+  	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari 3-8 */
+    transform: rotate(180deg);
+}
+
+.footer a {
+	color: #C4BFB0;
+	text-align: left;
+    height: 100%;
+    font-size: 20px;
+}
+
+.detail {
+	float:left;
+	color:#C4BFB0;
+	font-size:14px;
+	color: white;
+}
+
+.minifooter {
+	float:left;
+	margin-left: 2em;
+    margin-bottom: 2em;
+}

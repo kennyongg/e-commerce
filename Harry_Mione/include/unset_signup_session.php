@@ -1,0 +1,14 @@
+<?php 
+    unset($_SESSION['firstnameErr']);
+    unset($_SESSION['lastnameErr']);
+    unset($_SESSION['emailErr']);
+    unset($_SESSION['usernameErr']);
+    unset($_SESSION['passwordErr']);
+    unset($_SESSION['confirm_pswErr']);
+    unset($_SESSION['genderErr']);
+    unset($_SESSION['streetErr']);
+    unset($_SESSION['townErr']);
+    unset($_SESSION['postcodeErr']);
+    unset($_SESSION['cityErr']);
+    unset($_SESSION['stateErr']);
+?>

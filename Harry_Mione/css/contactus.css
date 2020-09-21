@@ -1,0 +1,43 @@
+.map {	
+	width: 100%;
+}
+
+.contactInfo {
+	padding: 5%;
+	background-color: pink;
+}
+
+.hq {
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	width: 100%;
+	margin: 0; 
+}
+
+.address {
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	width: 100%;
+	margin: 0; 
+}
+
+.tel {
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 20px; 
+}
+
+.email {
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin-bottom: 5%;
+	width: 100%;
+	font-size: 18px;
+	margin: 0; 
+}

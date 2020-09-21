@@ -1,0 +1,46 @@
+.account_info {
+	background-color: pink;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 5em;
+	padding-top: 2em;
+}
+
+.account_info_container {
+	background-color: pink;
+	text-align: center;
+	border-radius: 8px;
+	padding-top: 2em;
+}
+
+.account_info_container hr{
+	margin: 0 0 5px 50%;
+	height: 2px;
+	width: 0%;
+	transition: 1s;
+	background-color: black;
+}
+
+.account_info_container:hover hr{
+	width: 40%;
+	margin: 0 0 5px 30%;
+}
+
+.account_info_container p{
+	font-size: 24px;
+}
+
+.account_info_container a{
+	color: white;
+	font-size: 24px;
+}
+
+.signout {
+	width: 50%;
+	height: 28px;
+	padding: 15px;
+	border: 1px solid black;
+	background-color: #D60202;
+	color: white;
+}

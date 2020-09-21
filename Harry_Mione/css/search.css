@@ -1,0 +1,32 @@
+.search_form_container {
+	background-color: #575454;
+	height: 100%;
+	width: 100%;
+	padding-top: 170px;
+}
+
+.searchbar {
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	color: black;
+	width: 80%;
+	margin-left: 3%;
+	float: left;
+	padding: 10px;
+	padding-left: 30px;
+	border-radius: 50px;
+}
+
+button {
+	margin-left: 5px;
+	border: none;
+	background-color: #575454;
+}
+
+button img {
+	transition: transform .2s;
+}
+
+button img:hover {
+	transform: scale(1.2);
+}

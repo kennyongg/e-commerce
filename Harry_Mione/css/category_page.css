@@ -1,0 +1,12 @@
+.bigtitle {
+	width: 100%;
+	height: 600px;
+	line-height: 600px;
+	background-color: pink;
+}
+
+.bigtitle h1{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 100px;
+    text-align: center;
+}
